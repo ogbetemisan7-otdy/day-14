@@ -1,0 +1,21 @@
+.flex-container{
+    max-width: 800px;
+    height: 500px;
+    border: 1px double deeppink;
+    margin:  50px auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-items{
+    border: 1px solid lightpink;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.flex-items img{
+    width: 100%;
+}

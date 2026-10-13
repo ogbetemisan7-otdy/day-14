@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    list-style: none;
+}
+.nav-items a{
+    padding: 20px;
+    color: deeppink;
+    border: 1px solid deeppink;
+    text-decoration: none;
+    text-transform: uppercase;
+}
